@@ -1,0 +1,31 @@
+.MainGrid {
+    display: grid;
+
+    grid-template-areas: "firstColumn secondColumn thirdColumn";
+    grid-template-columns: 630px 315px 140px;
+
+    grid-gap: 60px;
+
+    max-width: 1053px;
+    margin: 0 auto;
+}
+
+.box1 {
+
+    margin-left: 100px;
+}
+
+.suggestionBox {
+    padding: 22px 0px 10px;
+    margin: 10px;
+}
+
+.user-elements span {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style: none;
+  }

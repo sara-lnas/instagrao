@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    gap: 18px;
+    margin: 40px 0px 30px 20px;
+}
+
+.story-elements {
+    cursor: pointer;
+}
+
+.user-elements div {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#c82d8e, #f99d4c);
+}
+
+.elements1 div {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #70BF50;
+}
+
+.user-elements span { 
+    font-size: 12px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 10px 2px;
+}
+
+.elements1 span { 
+    font-size: 12px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 10px 2px;
+}
+
+.image-user-story {
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}

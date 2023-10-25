@@ -1,0 +1,165 @@
+.headerPost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px 10px;
+}
+
+header img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.infos-post {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.infos-post p{
+   color: #000000e3;
+   font-size: 14px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 600;
+}
+
+.img-post {  
+    object-fit: cover;
+    margin-left: 80px;
+}
+
+.footer-post {
+    padding: 10px 15px;
+}
+
+/* parte de icone*/
+.engajamento {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.engajamento .icons1 { 
+    margin-left: 60px;
+    display: flex;
+    gap: 16px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.like {
+    margin: 12px 0px 12px 60px;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.like span {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.legend {
+    margin: 6px 60px 3px 0px;
+}
+
+.legend p {
+    color: #000000;
+    font-weight: 200;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 60px;
+}
+
+.time-post time {
+    font-size: 14px;
+    color: #737373;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* comments */ 
+.comentario {
+    display: flex;
+    border-top: 1px solid rgba(206, 206, 206, 0.897);
+    margin-top: 8px;
+    margin-left: 60px;
+}
+
+/* ver comentarios*/
+.viem-comment {
+    color: var(--cinza-letras);
+    font-size: 14px;
+    margin-left: 60px;
+    padding: 15px 0px 9px;
+    cursor: pointer;
+}
+
+/* adicione comentario*/
+.comments {
+    margin: 6px 0 3px;
+    justify-content: space-between;
+} 
+
+.comments p {
+    color: #000000;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 60px;
+}
+
+.icon2 {
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.fake-comentario {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+   
+    flex: 10;
+    gap: 20px;
+}
+
+.fake-comentario input {
+    color: #131313;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+}
+
+.comentario button {
+    color: #1EA1F7;
+    font-weight: bold;
+    border: none;
+    font-weight: 500;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+.comentario button:hover {
+    color: #095588;
+}
+
+.icon1 {
+    color: #8b8b8bc4;
+    cursor: pointer;
+
+}
+
+.icon1:hover {
+    color: #e0e0e0c7;
+}
+
+.icone {
+    padding-right: 63px;
+}

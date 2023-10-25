@@ -1,0 +1,41 @@
+:root {
+  --white: #FCFCFC;
+  --cinza-instagram: #DBDBDB;
+  --cinza-letras: #737373;
+  --cinza-footer: #C7C7C7;
+  --blue: #0095F6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background: var(--white);
+  display: flex;
+}
+
+.ConteudoEsquerdo,
+.ConteudoDireito,
+.ConteudoCentral {
+  height: 100vh;
+  position: fixed;
+}
+
+.ConteudoEsquerdo {
+  background: var(--white);
+  border-right: 8px solid var(--cinza-instagram);
+  /*height: 100vh; /* view height */
+  position: fixed;
+}
+
+.img-logo {
+  max-width: 50px;
+}
+
+@media (max-width: 800px) {
+  
+}
